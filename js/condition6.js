@@ -21,7 +21,7 @@ if (num1 > num2) {
 
 // Math.random() = 0 ~ 0.9999999  -> Math.random() * 10 = 0 ~ 9  ->   ex)40 ~ 70 난수 40 + Math.random() * 10 = 40 ~ 49    -> 40 + Math.random() * 30 = 40 ~ 69
 //                                                                                                                         -> 40 + Math.random() * 31 = 40 ~ 70
-// Math.floor -> 소수점 때줌
+// Math.floor -> 소수점 떼줌
 
 let result1 = 40 + Math.floor(Math.random() * 31);
 let result2 = 40 + Math.floor(Math.random() * 31);
