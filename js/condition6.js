@@ -8,8 +8,8 @@
 
 // 반복문 (537p 예습)
 
-let num1 = prompt("숫자를 입력하세요");
-let num2 = prompt("숫자를 입력하세요");
+let num1 = parseInt(prompt("숫자를 입력하세요"));
+let num2 = parseInt(prompt("숫자를 입력하세요"));
 
 if (num1 > num2) {
   console.log("두 숫자 중에서 큰 값은 " + num1 + " 입니다.");
@@ -18,6 +18,10 @@ if (num1 > num2) {
 } else {
   console.log("두 숫자가 같습니다.");
 }
+
+// Math.random() = 0 ~ 0.9999999  -> Math.random() * 10 = 0 ~ 9  ->   ex)40 ~ 70 난수 40 + Math.random() * 10 = 40 ~ 49    -> 40 + Math.random() * 30 = 40 ~ 69
+//                                                                                                                         -> 40 + Math.random() * 31 = 40 ~ 70
+// Math.floor -> 소수점 때줌
 
 let result1 = 40 + Math.floor(Math.random() * 31);
 let result2 = 40 + Math.floor(Math.random() * 31);

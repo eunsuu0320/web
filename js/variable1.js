@@ -9,7 +9,7 @@
 // 변수 (variable) - 데이터타입 (문자, 숫자, boolean, object, array)
 
 let name; // 변수 선언
-name = "박효준"; // 값을 대입
+name = "최은수"; // 값을 대입
 let name1 = "홍길동"; // 변수 초기화
 name = "김민수";
 console.log(name);
