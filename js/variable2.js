@@ -28,7 +28,7 @@ console.log(numAry[0]);
 let strAry = ["Hello", "Nice", "Good", 300];
 // object
 let person = {
-  name: "박효준",
+  name: "최은수",
   age: 20,
   height: 150,
   weight: 50,
