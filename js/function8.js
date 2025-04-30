@@ -24,7 +24,6 @@ function makeTr(emp = {}) {
 //tr 삭제하는 함수.
 function deleteTr(event) {
   event.target.parentElement.parentElement.remove();
-  return
 }
 
 // 사원목록(table 형식)을 출력
